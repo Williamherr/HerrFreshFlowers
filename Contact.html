@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Contact</title>
+
+    <!-- Meta tag for keywords  -->
+    <meta name="keywords" content="Contact Fresh Flowers" >
+    
+    <!-- Meta tag for description  -->
+    <meta name="description" content="Contact Herr Fresh Flowers" >
+    
+    <!-- Meta tag for character encoding  -->
+    <meta charset="UTF-8">
+    
+    <!--External Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="Contact.css">
+
+    <!-- JavaScript function declarations -->
+    <script src="Contact.js"></script>
+    
+</head>
+<header class="nav">
+    
+    <div class="navBox">
+        <ul>
+            <li style="float:left ;"><a href="Home.html">
+                <strong>Herr Fresh Flowers</strong>  </a></li>
+            <li><a href="Flowers.html">Flowers</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Home.html">Home</a></li>
+        </ul>
+    </div>
+
+</header>
+
+<div>
+<body>
+    <h1>Contact Us Form</h1>
+    <p>Please contact us if you have any questions.</p>
+    <div class=contact>
+
+        <form name="emailForm" action="mailto:pengherr98@hotmail.com"  onsubmit="return sendContact()" method="post">
+        
+            <label for ="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstname" placeholder="First" required >
+            <label for ="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastname" placeholder="Last" required>
+            <label for="email">Email Address</label>
+            <input type="text" id="email" name="email" placeholder="Email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Type here..."
+            style="height:200px" style="width:400px" required></textarea>
+            <input  type="submit" value="Submit" >
+
+        </form>
+        
+</div>
+
+
+</body>
+</div>
+<footer>
+    <div class="navBox">
+    <ul >
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="Flowers.html">Flowers</a></li>
+        <li style="float:left ;">&copy; Herr Fresh Flowers 2020</li>
+    </ul>
+ </div>  
+</footer>
