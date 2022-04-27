@@ -4,4 +4,5 @@ How to open Herr Fresh Flowers:
 
 1. Download or clone the project
 2. Open the project with your favorite IDE (I use Visual Studio Code)
-3. Run with a live Server (In VSC I installed an extension called live server. Once the extenstion is installed, right click on the Home.html page and click run server)
+3. Run with a live Server (In VSC I installed an extension called live server. 
+   Once the extenstion is installed, right click on the Home.html page and click run server)
